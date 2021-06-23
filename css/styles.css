@@ -344,6 +344,19 @@ header {
     }
 }
 
+.frontend-list {
+    
+}
+
+.frontend__list-item {
+    list-style: none;
+    font-size: 10px;
+    text-align: left;
+}
+
+
+/* About Me */
+
 .about-me {
     max-width: 1000px;
     margin: 0 auto;
