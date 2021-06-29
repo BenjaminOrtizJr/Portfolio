@@ -344,16 +344,28 @@ header {
     }
 }
 
-.service__title {
-    font-size: 30px;
+.service {
+    text-align: left;
 }
 
-.icon-html5-alt {
-    font-size: 19px
+.service__title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.icon-html5-alt,
+.icon-css3-alt,
+.icon-javascript-alt, {
+    font-size: 25px;
+}
+
+..icon-reactjs {
+    font-size: 20px;
 }
 
 .skill-name {
     font-size: 20px;
+    text-align: left;
 }
 
 
