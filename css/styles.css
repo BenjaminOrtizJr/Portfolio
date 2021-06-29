@@ -344,14 +344,16 @@ header {
     }
 }
 
-.frontend-list {
-    
+.service__title {
+    font-size: 30px;
 }
 
-.frontend__list-item {
-    list-style: none;
-    font-size: 10px;
-    text-align: left;
+.icon-html5-alt {
+    font-size: 19px
+}
+
+.skill-name {
+    font-size: 20px;
 }
 
 
