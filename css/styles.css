@@ -348,8 +348,14 @@ header {
     text-align: left;
 }
 
+
 .service__title {
     font-size: 30px;
+    text-align: center;
+}
+
+.icon-shell {
+    font-size: 50px;
     text-align: center;
 }
 
