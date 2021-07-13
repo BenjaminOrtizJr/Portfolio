@@ -50,6 +50,10 @@ body {
     line-height: 1.6;
 }
 
+@media (max-width: 330px) {
+    
+}
+
 section {
     padding: 5em 2em;
 }
@@ -363,7 +367,7 @@ header {
     text-align: left;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 767px) {
     .services {
         display: flex;
         max-width: 1000px;
@@ -376,7 +380,7 @@ header {
     }
 }
 
-@media (max-width: 799px) {
+@media (max-width: 766px) {
 
     #services {
         text-align: center;
@@ -399,6 +403,44 @@ header {
     }
 }
 
+@media (max-width: 330px) {
+    .portfolio__item {
+        position: static;
+        margin-right: 2.5em;
+    }
+}
+
+@media (max-width: 280px) {
+
+    span.logo__text {
+        font-size: 26px;
+    }
+
+     #services {
+        text-align: center;
+    }
+
+    .services {
+        margin: 1em;
+    }
+
+    .service {
+        position: relative;
+        text-align: center;
+        padding: 1em;
+    }
+
+    .icon-mobile-device,
+    .icon-database-alt2,
+    .icon-line-graph {
+        margin-right: 1.5em;
+    }
+
+    .portfolio {
+        text-align: center;
+    }
+
+}
 
 /* About Me */
 
