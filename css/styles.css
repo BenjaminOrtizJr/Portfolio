@@ -251,12 +251,13 @@ header {
 
 /* Intro Section */
 
-.intro {
+#intro {
     position: relative;
-    background: url(/video/video.mp4);
+    background: url();
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .intro__img {
@@ -336,10 +337,6 @@ header {
 .service {
     max-width: 500px;
     margin: 0 auto;
-    text-align: center;
-}
-
-.service {
     text-align: left;
 }
 
@@ -377,7 +374,29 @@ header {
     .service + .services {
         margin-left: 2em;
     }
+}
 
+@media (max-width: 799px) {
+
+    #services {
+        text-align: center;
+    }
+
+    .services {
+        margin: 1em;
+    }
+
+    .service {
+        position: relative;
+        text-align: center;
+        padding: 1em;
+    }
+
+    .icon-mobile-device,
+    .icon-database-alt2,
+    .icon-line-graph {
+        margin-right: 1.5em;
+    }
 }
 
 
