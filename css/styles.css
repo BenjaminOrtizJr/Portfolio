@@ -114,6 +114,7 @@ h3 {
 
 .section__title {
     margin-bottom: .25em;
+   
 }
 
 .section__title--intro {
@@ -343,6 +344,33 @@ header {
         margin-left: 2em;
     }
 }
+
+.service {
+    text-align: left;
+}
+
+.service__title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.icon-html5-alt,
+.icon-css3-alt,
+.icon-javascript-alt, {
+    font-size: 25px;
+}
+
+..icon-reactjs {
+    font-size: 20px;
+}
+
+.skill-name {
+    font-size: 20px;
+    text-align: left;
+}
+
+
+/* About Me */
 
 .about-me {
     max-width: 1000px;
