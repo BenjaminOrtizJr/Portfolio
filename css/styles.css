@@ -253,6 +253,10 @@ header {
 
 .intro {
     position: relative;
+    background: url(/video/video.mp4);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .intro__img {
@@ -294,6 +298,8 @@ header {
         position: relative;
         left: -1.5em;
         width: calc(100% + 1.5em);
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
     }
 }
 
@@ -330,6 +336,34 @@ header {
 .service {
     max-width: 500px;
     margin: 0 auto;
+    text-align: center;
+}
+
+.service {
+    text-align: left;
+}
+
+.fa-check {
+    color: var(--clr-accent);
+}
+
+.icon-mobile-device,
+.icon-database-alt2,
+.icon-line-graph {
+    color: var(--clr-accent);
+    font-size: 35px;
+    margin-left: 1.5em;
+}
+
+.service__title {
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.skill-name {
+    font-size: 20px;
+    text-align: left;
 }
 
 @media (min-width: 800px) {
@@ -340,33 +374,10 @@ header {
         margin-right: auto;
     }
 
-    .service + .service {
+    .service + .services {
         margin-left: 2em;
     }
-}
 
-.service {
-    text-align: left;
-}
-
-.service__title {
-    font-size: 30px;
-    text-align: center;
-}
-
-.icon-html5-alt,
-.icon-css3-alt,
-.icon-javascript-alt, {
-    font-size: 25px;
-}
-
-..icon-reactjs {
-    font-size: 20px;
-}
-
-.skill-name {
-    font-size: 20px;
-    text-align: left;
 }
 
 
@@ -406,6 +417,8 @@ header {
         width: calc(100% + 2em);
         padding-left: 1em;
         padding-right: calc(200px + 4em);
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
     }
 
     .about-me__img {
