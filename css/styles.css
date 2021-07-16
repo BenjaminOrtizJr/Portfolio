@@ -274,6 +274,13 @@ header {
     display: inline-block;
 }
 
+@media (max-width: 599px) {
+    .section__subtitle--intro {
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    }
+}
+
 @media (min-width: 600px) {
     .intro {
         display: grid;
@@ -384,6 +391,7 @@ header {
 
     #services {
         text-align: center;
+        
     }
 
     .services {
@@ -394,6 +402,7 @@ header {
         position: relative;
         text-align: center;
         padding: 1em;
+        
     }
 
     .icon-mobile-device,
