@@ -500,22 +500,29 @@ header {
     }
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 767px) {
     .about-me__img2 {
         position: absolute;
         max-width: 400px;
-        right: 10em;
+        right: -1em; 
         margin-top: 12em;
     }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 800px) {
     .about-me__img2 {
-        
-        
         
     }
 }
+
+/* @media (min-width: 1023px) {
+    .about-me__img2 {
+        position: absolute;
+        max-width: 300px;
+        right: -0.5em;
+        margin-top: 12em;
+    }
+} */
 
 /* My Work */
 
