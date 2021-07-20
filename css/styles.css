@@ -268,6 +268,7 @@ header {
     /* box-shadow: var(--bs); */
     width: 100%;
     height: auto;
+    border-radius: 50%;
 }
 
 .section__subtitle--intro {
@@ -495,6 +496,24 @@ header {
         grid-area: img;
         position: relative;
         z-index: 2;
+        height: 5em;
+    }
+}
+
+@media (min-width: 1800px) {
+    .about-me__img2 {
+        position: absolute;
+        max-width: 400px;
+        right: 10em;
+        margin-top: 12em;
+    }
+}
+
+@media (min-width: 1900px) {
+    .about-me__img2 {
+        
+        
+        
     }
 }
 
