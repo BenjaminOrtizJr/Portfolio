@@ -81,7 +81,6 @@ strong {
     text-decoration: none;
     cursor: pointer;
     font-size: 1rem;
-    text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
@@ -526,9 +525,9 @@ header {
 }
 
 .portfolio__img {
-    border-radius: 5px;
-    width: 25em;
-    height: 10em;
+    border-radius: 5px 5px 0px 0px;
+    width: auto;
+    height: auto;
 }
 
 .portfolio__item:focus {
@@ -551,6 +550,7 @@ header {
     -webkit-box-shadow: 0px 2px 12px -2px rgba(255,252,255,1);
     -moz-box-shadow: 0px 2px 12px -2px rgba(255,252,255,1);
     box-shadow: 0px 2px 12px -2px rgba(255,252,255,1);
+    background-color: whitesmoke;
 }
 
 .project-title {
@@ -565,10 +565,12 @@ header {
     padding-left: 15px;
     padding-right: 10px;
     font-size: small;
+    color: var(--clr-dark);
 }
 
 .stack-title {
     font-size: medium;
+    color: var(--clr-dark);
 }
 
 .stack-list {
@@ -577,6 +579,7 @@ header {
     justify-content: space-around;
     margin-right: 2em;
     font-size: small;
+    color: var(--clr-dark);
 }
 
 .link-container {
@@ -591,14 +594,14 @@ header {
     border-radius: 15px;
     padding: 0px 8px 0px 8px;
     background: #3F3D56;
-    color: var(--clr-accent);
+    color: var(--clr-light);
 }
 
 .link-container > a:hover {
-    color: var(--clr-light);
-    -webkit-box-shadow: 0px 2px 12px -2px rgba(255,252,255,1);
-    -moz-box-shadow: 0px 2px 12px -2px rgba(255,252,255,1);
-    box-shadow: 0px 2px 12px -2px rgba(255,252,255,1);
+    color: var(--clr-accent);
+    -webkit-box-shadow: 0px 2px 12px -2px black;
+    -moz-box-shadow: 0px 2px 12px -2px black;
+    box-shadow: 0px 2px 12px -2px black;
 }
 
 .project-link {
