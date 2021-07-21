@@ -255,15 +255,6 @@ header {
 
 /* Intro Section */
 
-#intro {
-    position: relative;
-    background: url();
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
 .intro__img {
     /* box-shadow: var(--bs); */
     width: 100%;
@@ -511,7 +502,7 @@ header {
 @media (min-width: 1025px) {
     .section__subtitle--work {
         left: 13em;
-        position: sticky;   
+        position: relative; 
     }
 }
 
