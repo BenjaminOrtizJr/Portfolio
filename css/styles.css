@@ -465,6 +465,18 @@ header {
     height: auto;
 }
 
+/* .about-me__img2 {
+    position: absolute;
+    max-width: 400px;
+    right: 5em; 
+    margin-top: 12em;
+} */
+
+.about-me__img2 {
+    position: relative;
+    top: 2em;
+}
+
 @media (min-width: 600px) {
     .about-me {
         display: grid;
@@ -496,31 +508,29 @@ header {
         grid-area: img;
         position: relative;
         z-index: 2;
-        height: 5em;
-    }
-}
-
-@media (min-width: 767px) {
-    .about-me__img2 {
-        position: absolute;
-        max-width: 400px;
-        right: -1em; 
-        margin-top: 12em;
-    }
-}
-
-@media (min-width: 800px) {
-    .about-me__img2 {
         
+    
     }
 }
 
-/* @media (min-width: 1023px) {
+/* @media (max-width: 767px) {
+    .about-me__img2 {
+        display: none;
+    }
+} */
+
+/* @media (min-width: 767px) and (max-width: 1024px) {
     .about-me__img2 {
         position: absolute;
-        max-width: 300px;
-        right: -0.5em;
+        max-width: 275px;
+        right: -0.5em; 
         margin-top: 12em;
+    }
+}
+
+@media (min-width: 1025px) {
+    .about-me__img2 {
+        position: absolute;
     }
 } */
 
@@ -549,6 +559,8 @@ header {
     transition: 
     transform 750ms cubic-bezier(.5, 0, .5, 1),
     opacity 250ms linear;
+    width: 25em;
+    height: 12em;
 }
 
 .portfolio__item:focus {
@@ -558,7 +570,7 @@ header {
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
-    transform: scale(1.2);
+    transform: scale(1.1);
     opacity: .5;
 }
 
