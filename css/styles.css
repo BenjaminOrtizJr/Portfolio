@@ -598,9 +598,9 @@ header {
 .link-container > a {
     border: 1px solid #3F3D56;
     border-radius: 15px;
-    padding: 5px;
+    padding: 0px 8px 0px 8px;
     background: #3F3D56;
-    color: var(--clr-light);
+    color: var(--clr-accent);
 }
 
 .link-container > a:hover {
