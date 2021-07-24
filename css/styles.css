@@ -496,12 +496,14 @@ header {
 
 .section__subtitle--work {
     text-align: left;
+    position: relative;
 }
 
 @media (min-width: 1025px) {
     .section__subtitle--work {
-        left: 13em;
-        position: relative; 
+        text-align: center;
+        font-size: 30px;
+        /* position: relative;  */
     }
 }
 
@@ -629,6 +631,10 @@ header {
     .p1 {
         width: 14em;
     }
+
+    .list-item {
+        padding: 4px;
+    }
 }
 
 /* Footer */
@@ -675,8 +681,11 @@ header {
     padding: .5em;
 } */
 
-.footer {
+/* .footer {
     background: #111;
+    padding: 1em;
+    margin: 0;
+    
 }
 
 .footer-inner {
@@ -721,7 +730,7 @@ header {
 .footer-container2 {
     display: flex;
     padding: 20px;
-}
+} */
 
 .footer-b1 {
     
