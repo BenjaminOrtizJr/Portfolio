@@ -633,7 +633,7 @@ header {
 
 /* Footer */
 
-.footer {
+/* .footer {
     background: #111;
     color: var(--clr-accent);
     text-align: center;
@@ -673,8 +673,80 @@ header {
 
 .social-list__link {
     padding: .5em;
+} */
+
+.footer {
+    background: #111;
 }
 
+.footer-inner {
+    background: #111;
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.footer-container1 {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-input {
+    width: 50%;
+    margin: 40px 0px 0px 50px;
+}
+
+.heading1 {
+    color: var(--clr-light);
+}
+
+.heading2 {
+    font-size: 35px;
+    color: var(--clr-light);
+}
+
+.email-input {
+
+}
+
+.footer-image {
+    width: 50%;
+}
+
+.footer-image > img {
+    width: 350px;
+}
+
+.footer-container2 {
+    display: flex;
+    padding: 20px;
+}
+
+.footer-b1 {
+    
+}
+
+.footer-b2 {
+
+}
+
+.footer-b3 {
+
+}
+
+.footer-b4 {
+    
+    
+}
+
+.social-list {
+    
+}
+
+.social-list {
+    
+}
 /* Individual portfolio item styles */
 
 .portfolio-item-individual {
