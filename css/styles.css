@@ -697,6 +697,7 @@ header {
 .footer {
     background-color: #111;
     color: rgba(190, 190, 190, 0.589);
+    height: auto;
 }
 
 
@@ -708,11 +709,51 @@ header {
 
 .footer-container1 {
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
+}
+
+.footer-input {
+    margin-top: 5em;
+}
+
+.heading1 {
+    color: var(--clr-accent);
+}
+
+.heading2 {
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+.email-input {
+    background-color: #111;
+    border-top: none;
+    border-left: none;
+    border-right:  none;
+    width: 35em;
+    margin-top: 2em;
+}
+
+.submit {
+    border: none;
+    background-color: #111;
+    position: relative;
+    bottom: 0.5em;
+    right: 4em;
+    cursor: pointer;
+}
+
+.fa-paper-plane {
+    color: var(--clr-accent);
+    font-size: 25px;
 }
 
 .footer-image {
-    width: 350px;
+    margin-top: 5em; 
+}
+
+.footer-image > img {
+    width: 430px;
 }
 
 .footer-container2 {
@@ -720,7 +761,71 @@ header {
     justify-content: space-between;
 }
 
+.footer-b1 {
+    margin-top: 5em;
+    width: 22em;
+}
 
+.logo2 {
+    font-size: 35px;
+}
+
+.footer-b2 {
+    margin-top: 5em;
+}
+
+.footer-links-1 {
+    list-style: none;
+}
+
+.footer-item > a {
+    text-decoration: none;
+    color:rgba(190, 190, 190, 0.589);
+}
+
+.footer-b3 {
+    margin-top: 5em;
+}
+
+.footer-links-2 {
+    list-style: none;
+}
+
+.footer-b4 {
+    margin-top: 5em;
+}
+
+.footer-b4 > p {
+    color: whitesmoke;
+    
+}
+
+.footer__link {
+    text-decoration: none;
+    color:rgba(190, 190, 190, 0.589);
+    position: relative;
+    bottom: 0.5em;
+}
+
+.social-list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.social-list li {
+    list-style: none;
+}
+
+.fa-facebook,
+.fa-linkedin,
+.fa-twitter-square,
+.fa-github {
+    color:rgba(190, 190, 190, 0.589);
+    position: relative;
+    right: 2.2em;
+    bottom: 1em;
+}
 
 
 /* Individual portfolio item styles */
