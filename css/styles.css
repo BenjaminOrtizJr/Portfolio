@@ -1157,7 +1157,7 @@ header {
     }
 
     .fa-paper-plane:hover {
-        color: rgb(160, 3, 147)
+        font-size: 30px;
     }
 
     .footer-image {
