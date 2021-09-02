@@ -1181,12 +1181,12 @@ header {
     .logo2 {
         margin-top: 2em;
         font-size: 40px;
-        color: #A3ABB5;
+        color: var(--clr-light);
     }
 
     .logo-pitch {
         font-size: 20px;
-        color: var(--clr-light);
+        color: #A3ABB5;
     }
 
     .footer-b2 {
@@ -1272,6 +1272,12 @@ header {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+.fa-arrow-alt-circle-left {
+    font-size: 35px;
+    color: var(--clr-accent);
+}
+
 
 /* .portfolio-item-individual p {
     max-width: 600px;
