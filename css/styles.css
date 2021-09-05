@@ -989,8 +989,15 @@ header {
 
 @media (min-width: 1024px) {
 
+    .footer-inner {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
     .footer-container1 {
         display: flex;
+        justify-content: space-between;
+        
     }
 
      .heading1 {
@@ -1031,7 +1038,7 @@ header {
     }
 
     .footer-image {
-        margin-left: 5em;
+        
         margin-top: 1em;
     }
 
@@ -1108,8 +1115,8 @@ header {
     }
 }
 
-@media (min-width: 1200px) {
-
+/* @media (min-width: 1200px) { */
+/* 
     .footer-inner {
         margin-left: 15em;
         margin-right: 15em;
@@ -1163,7 +1170,7 @@ header {
     .footer-image {
         margin-left: 8em;
         /* margin-top: 1em; */
-    }
+    /* }
 
     .footer-image > img {
         width: 400px;
@@ -1260,8 +1267,8 @@ header {
 
     .fa-github:hover {
         color: var(--clr-accent);
-    }
-}
+    } */
+} */
 
 /* --------------------- */
 
