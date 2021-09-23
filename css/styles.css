@@ -667,39 +667,13 @@ header {
         margin-top: -15px;
     }
 
-    .email-input {
-        background-color: #111;
-        border-top: none;
-        border-left: none;
-        border-right:  none;
-        width: 18em;
-        margin-top: 3em;
-        font-size: 15px;
-        color: #A3ABB5;
-    }
-
-    .submit {
-        border: none;
-        background-color: #111;
-        cursor: pointer;
-        position: absolute;
-    }
-
-    .fa-paper-plane {
-        color: var(--clr-accent);
-        font-size: 20px;
-        margin-top: 1.5em;
-        position: relative;
-        right: 35px;
-        top: 10px;
-    }
-
     .footer-image > img {
-        display: none;
+        width: 250px;
+        margin-top: 10px;
     }
 
     .logo2 {
-        margin-top: 2em;
+        margin-top: 1em;
         font-size: 25px;
         color: #A3ABB5;
     }
@@ -762,6 +736,10 @@ header {
         font-size: 20px;
     }
 
+    small {
+        font-size: 10px;
+    }
+
 }
 
 @media (min-width: 321px) and (max-width: 767px) {  /* Cell Phone Screens*/
@@ -775,39 +753,13 @@ header {
         margin-top: -15px;
     }
 
-    .email-input {
-        background-color: #111;
-        border-top: none;
-        border-left: none;
-        border-right:  none;
-        width: 21em;
-        margin-top: 3em;
-        font-size: 15px;
-        color: #A3ABB5;
-    }
-
-    .submit {
-        border: none;
-        background-color: #111;
-        cursor: pointer;
-        position: absolute;
-    }
-
-    .fa-paper-plane {
-        color: var(--clr-accent);
-        font-size: 20px;
-        margin-top: 1.5em;
-        position: relative;
-        right: 35px;
-        top: 10px;
-    }
-
     .footer-image > img {
-        display: none;
+        width: 250px;
+        margin-top: 10px;
     }
 
     .logo2 {
-        margin-top: 2em;
+        margin-top: 1em;
         font-size: 25px;
         color: #A3ABB5;
     }
@@ -869,12 +821,17 @@ header {
         font-size: 20px;
     }
 
+    small {
+        font-size: 10px;
+    }
+
 }
 
-@media (min-width: 768px) {    /* Tablet Screens*/
+@media (min-width: 768px) and (max-width: 1023px) {    /* Tablet Screens*/
 
     .footer-container1 {
         display: flex;
+        justify-content: space-between;
     }
 
      .heading1 {
@@ -887,40 +844,9 @@ header {
         font-size: 35px;
     }
 
-    .email-input {
-        background-color: #111;
-        border-top: none;
-        border-left: none;
-        border-right:  none;
-        width: 15em;
-        margin-top: 2em;
-        font-size: 25px;
-        color: #A3ABB5;
-    }
-
-    .submit {
-        border: none;
-        background-color: #111;
-        cursor: pointer;
-        position: absolute;
-    }
-
-    .fa-paper-plane {
-        color: var(--clr-accent);
-        font-size: 28px;
-        margin-top: 1em;
-        position: relative;
-        right: 45px;
-        top: 10px;
-    }
-
-    .footer-image {
-        margin-left: 3em;
-        margin-top: 1em;
-    }
-
     .footer-image > img {
-        width: 275px;
+        width: 250px;
+        margin-top: 10px;
     }
 
     .footer-container2 {
@@ -928,7 +854,7 @@ header {
     }
 
     .logo2 {
-        margin-top: 2em;
+        
         font-size: 25px;
         color: #A3ABB5;
     }
@@ -985,14 +911,13 @@ header {
         cursor: pointer;
         font-size: 20px;
     }
+
+    small {
+        font-size: 15px;
+    }
 }
 
-@media (min-width: 1024px) {
-
-    .footer-inner {
-        margin-left: 2em;
-        margin-right: 2em;
-    }
+@media (min-width: 1024px) and (max-width: 1299px) {
 
     .footer-container1 {
         display: flex;
@@ -1001,49 +926,17 @@ header {
     }
 
      .heading1 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .heading2 {
         color: var(--clr-light);
         margin-top: -10px;
-        font-size: 40px;
-    }
-
-    .email-input {
-        background-color: #111;
-        border-top: none;
-        border-left: none;
-        border-right:  none;
-        width: 18em;
-        margin-top: 2em;
-        font-size: 25px;
-        color: #A3ABB5;
-    }
-
-    .submit {
-        border: none;
-        background-color: #111;
-        cursor: pointer;
-        position: absolute;
-    }
-
-    .fa-paper-plane {
-        color: var(--clr-accent);
-        font-size: 28px;
-        margin-top: 1em;
-        position: relative;
-        right: 45px;
-        top: 10px;
-    }
-
-    .footer-image {
-        
-        margin-top: 1em;
+        font-size: 35px;
     }
 
     .footer-image > img {
-        width: 400px;
+        width: 300px;
     }
 
     .footer-container2 {
@@ -1051,18 +944,13 @@ header {
         justify-content: space-between;
     }
 
-    .footer-b1 {
-        width: 400px;
-    }
-
     .logo2 {
-        margin-top: 2em;
-        font-size: 40px;
+        font-size: 35px;
         color: #A3ABB5;
     }
 
     .logo-pitch {
-        font-size: 20px;
+        font-size: 15px;
         color: var(--clr-light);
     }
 
@@ -1072,7 +960,7 @@ header {
 
     .footer-links-1 {
         list-style-type: none;
-        font-size: 25px;
+        font-size: 15px;
     }
 
     .footer-item > a {
@@ -1083,11 +971,11 @@ header {
     }
 
     .footer-b3 {
-        margin-top: 1em;
+        margin-top: .2em;
     }
 
     .footer__link {
-        font-size: 25px;
+        font-size: 15px;
         color: #A3ABB5;
         text-decoration: none;
         cursor: pointer;
@@ -1108,72 +996,41 @@ header {
     .fa-github {
         color: #A3ABB5;
         position: relative;
-        right: 1em;
+        right: 2em;
         top: 5;
         cursor: pointer;
-        font-size: 35px;
+        font-size: 20px;
+    }
+
+    small {
+        font-size: 15px;
     }
 }
 
-/* @media (min-width: 1200px) { */
-/* 
+@media (min-width: 1300px) {
+
     .footer-inner {
-        margin-left: 15em;
-        margin-right: 15em;
+        margin-left: 2em;
     }
 
     .footer-container1 {
         display: flex;
+        justify-content: space-between;
     }
 
      .heading1 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .heading2 {
         color: var(--clr-light);
         margin-top: -10px;
-        font-size: 40px;
+        font-size: 35px;
     }
-
-    .email-input {
-        background-color: #111;
-        border-top: none;
-        border-left: none;
-        border-right:  none;
-        width: 22em;
-        margin-top: 2em;
-        font-size: 25px;
-        color: #A3ABB5;
-    }
-
-    .submit {
-        border: none;
-        background-color: #111;
-        cursor: pointer;
-        position: absolute;
-    }
-
-    .fa-paper-plane {
-        color: var(--clr-accent);
-        font-size: 28px;
-        margin-top: 1em;
-        position: relative;
-        right: 45px;
-        top: 10px;
-    }
-
-    .fa-paper-plane:hover {
-        font-size: 30px;
-    }
-
-    .footer-image {
-        margin-left: 8em;
-        /* margin-top: 1em; */
-    /* }
 
     .footer-image > img {
-        width: 400px;
+        width: 350px;
+        margin-right: 4em;
     }
 
     .footer-container2 {
@@ -1181,28 +1038,27 @@ header {
         justify-content: space-between;
     }
 
-    .footer-b1 {
-        width: 400px;
-    }
-
     .logo2 {
-        margin-top: 2em;
-        font-size: 40px;
-        color: var(--clr-light);
+        font-size: 35px;
+        color: #A3ABB5;
     }
 
     .logo-pitch {
         font-size: 20px;
-        color: #A3ABB5;
+        color: var(--clr-light);
     }
 
     .footer-b2 {
-        margin-top: 2em;
+        margin-top: 1em;
     }
 
     .footer-links-1 {
         list-style-type: none;
-        font-size: 20px;
+        font-size: 25px;
+    }
+
+    .footer__link:hover {
+        color: var(--clr-accent);
     }
 
     .footer-item > a {
@@ -1217,19 +1073,18 @@ header {
     }
 
     .footer-b3 {
-        margin-top: 2em;
-        line-height: normal;
+        margin-top: .2em;
+    }
+
+    .footer-b3 > p {
+        font-size: 25px;
     }
 
     .footer__link {
-        font-size: 20px;
+        font-size: 25px;
         color: #A3ABB5;
         text-decoration: none;
         cursor: pointer;
-    }
-
-    .footer__link:hover {
-        color: var(--clr-accent);
     }
 
     .social-list {
@@ -1238,7 +1093,7 @@ header {
     }
 
     .social-list__item {
-        margin-right: 14px;
+        margin-right: 70px;
     }
 
     .fa-facebook,
@@ -1247,10 +1102,10 @@ header {
     .fa-github {
         color: #A3ABB5;
         position: relative;
-        right: 1.2em;
+        right: 1.5em;
         top: 5;
         cursor: pointer;
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .fa-facebook:hover {
@@ -1267,8 +1122,16 @@ header {
 
     .fa-github:hover {
         color: var(--clr-accent);
-    } */
-} */
+    }
+
+    small {
+        font-size: 15px;
+    }
+}
+
+.cs-image {
+    width: 10px;
+}
 
 /* --------------------- */
 
