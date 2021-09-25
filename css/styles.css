@@ -1152,6 +1152,11 @@ header {
     color: var(--clr-accent);
 }
 
+.access-links {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 
 /* .portfolio-item-individual p {
     max-width: 600px;
