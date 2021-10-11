@@ -847,6 +847,7 @@ header {
     .footer-image > img {
         width: 250px;
         margin-top: 10px;
+        margin-right: 1em;
     }
 
     .footer-container2 {
@@ -854,7 +855,6 @@ header {
     }
 
     .logo2 {
-        
         font-size: 25px;
         color: #A3ABB5;
     }
@@ -862,6 +862,10 @@ header {
     .logo-pitch {
         font-size: 15px;
         color: var(--clr-light);
+    }
+
+    .footer-b1 {
+        width: 300px;
     }
 
     .footer-b2 {
@@ -1010,7 +1014,7 @@ header {
 @media (min-width: 1300px) {
 
     .footer-inner {
-        margin-left: 2em;
+        margin-left: 3em;
     }
 
     .footer-container1 {
@@ -1025,7 +1029,7 @@ header {
     .heading2 {
         color: var(--clr-light);
         margin-top: -10px;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .footer-image > img {
@@ -1039,12 +1043,12 @@ header {
     }
 
     .logo2 {
-        font-size: 35px;
+        font-size: 30px;
         color: #A3ABB5;
     }
 
     .logo-pitch {
-        font-size: 20px;
+        font-size: 18px;
         color: var(--clr-light);
     }
 
@@ -1054,7 +1058,7 @@ header {
 
     .footer-links-1 {
         list-style-type: none;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .footer__link:hover {
@@ -1077,11 +1081,11 @@ header {
     }
 
     .footer-b3 > p {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .footer__link {
-        font-size: 25px;
+        font-size: 20px;
         color: #A3ABB5;
         text-decoration: none;
         cursor: pointer;
@@ -1148,9 +1152,7 @@ header {
     color: var(--clr-accent);
 }
 
-
-/* .portfolio-item-individual p {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-} */
+.access-links {
+    cursor: pointer;
+    text-decoration: none;
+}
