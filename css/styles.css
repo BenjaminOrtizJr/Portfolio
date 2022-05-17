@@ -154,10 +154,15 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
+    background-color: var(--clr-dark);
 }
 
 .logo {
     max-width: 100px
+}
+
+.logo__text {
+    color: var(--clr-accent);
 }
 
 .nav {
