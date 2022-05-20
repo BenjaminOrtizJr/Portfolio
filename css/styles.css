@@ -301,6 +301,10 @@ header {
         
     }
 
+    .section__title {
+        font-size: 50px;
+    }
+
     .section__subtitle--intro {
         align-self: start;
         grid-column: -1 / 1;
@@ -314,6 +318,11 @@ header {
     }
 }
 
+@media (max-width: 768px) {
+    .section__title {
+        font-size: 40px;
+    }
+}
 /* My Services  */
 
 .my-services {
@@ -516,7 +525,7 @@ header {
     background: var(--clr-accent);
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
 
     .section__subtitle--work {
         text-align: center;
@@ -654,7 +663,22 @@ header {
     .list-item {
         padding: 4px;
     }
+
+    /* .portfolio {
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio__img {
+        height: 120px;
+    } */
 }
+
+/* @media (max-width: 540px) {
+    .portfolio {
+        width: 378px;
+    }
+} */
 
 /* Footer */
 
