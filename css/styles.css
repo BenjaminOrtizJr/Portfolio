@@ -646,11 +646,6 @@ header {
         color: var(--clr-accent);
 }
 
-/* @media (min-width: 820px) {
-    
-    
-} */
-
 @media (max-width: 320px) {
 
     .portfolio {
@@ -925,6 +920,7 @@ header {
 
     .footer-b3 {
         margin-top: .2em;
+        margin-left: 1.5em;
     }
 
     .footer__link {
