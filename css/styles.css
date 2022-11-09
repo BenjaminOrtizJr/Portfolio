@@ -481,6 +481,7 @@ header {
 }
 
 @media (min-width: 600px) {
+    
     .about-me {
         display: grid;
         grid-template-columns: 1fr 200px;
@@ -538,13 +539,13 @@ header {
         font-size: 30px;
         /* position: relative;  */
     }
-}
+
 
     .my-work {
         background-color: var(--clr-dark);
         color: var(--clr-light);
         text-align: center;
-}
+    }
 
     .portfolio {
         display: grid;
@@ -552,28 +553,28 @@ header {
         max-width: 1200px;
         margin: 0 auto;
         grid-gap: 35px;
-}
+    }
 
     .portfolio__item {
         background: var(--clr-accent);
         overflow: hidden;
-}
+    }
 
     .portfolio__img {
         border-radius: 5px 5px 0px 0px;
         max-width: auto;
         height: 208px;
-}
+    }
 
     .portfolio__item:focus {
         position: relative;
         z-index: 2;
-}
+    }
 
     .p1:hover,
     .portfolio__item:focus .p1 {
         transform: scale(1.1);
-}
+    }
 
     .p1 {
         border: none;
@@ -587,13 +588,12 @@ header {
         box-shadow: 0px 2px 12px -2px rgba(255,252,255,1);
         background-color: whitesmoke;
         max-width: 360px;
-
-}
+    }
 
     .project-title {
         color: var(--clr-accent);
         margin-top: 15px;
-}
+    }
 
     .project-description {
         text-align: left;
@@ -603,12 +603,12 @@ header {
         padding-right: 10px;
         font-size: small;
         color: var(--clr-dark);
-}
+    }
 
     .stack-title {
         font-size: medium;
         color: var(--clr-dark);
-}
+    }
 
     .stack-list {
         list-style: none;
@@ -617,14 +617,14 @@ header {
         margin-right: 2em;
         font-size: small;
         color: var(--clr-dark);
-}
+    }
 
     .link-container {
         display: flex;
         justify-content: space-evenly;
         margin-top: 1em;
         padding: 10px;
-}
+    }
 
     .link-container > a {
         border: 1px solid #3F3D56;
@@ -632,20 +632,20 @@ header {
         padding: 0px 8px 0px 8px;
         background: #3F3D56;
         color: var(--clr-light);
-}
+    }
 
     .link-container > a:hover {
         color: var(--clr-accent);
         -webkit-box-shadow: 0px 2px 12px -2px black;
         -moz-box-shadow: 0px 2px 12px -2px black;
         box-shadow: 0px 2px 12px -2px black;
-}
+    }
 
     .project-link {
         text-decoration: none;
         color: var(--clr-accent);
+    }
 }
-
 @media (max-width: 320px) {
 
     .portfolio {
