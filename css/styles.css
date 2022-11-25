@@ -655,8 +655,7 @@ header {
 
     .portfolio__img {
         position: relative;
-        width: 320px;
-        height: 160px;
+        width: 100%;
     }
 
      .section__subtitle--work {
