@@ -655,7 +655,8 @@ header {
 
     .portfolio__img {
         position: relative;
-        width: 100%;
+        width: 320px;
+        height: 160px;
     }
 
      .section__subtitle--work {
@@ -725,7 +726,7 @@ header {
         display: flex;
         justify-content: space-around;
         margin-right: 2em;
-        font-size: small;
+        font-size: 12px;
         color: var(--clr-dark);
     }
 
